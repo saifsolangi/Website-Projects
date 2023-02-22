@@ -1,0 +1,45 @@
+*, *::after, *::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button{
+    width: 80px;
+    padding: 5px 20px;
+    cursor: pointer;
+    border: none;
+    margin-right: 3px;
+    border-radius: 2px;
+}
+
+button:hover{
+    transform: scale(1.03);
+    background-color: rgb(221, 233, 0);
+    transition: all 0.3s ease-in-out;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-color: #13111d;
+}
+
+.btns{
+    display: flex ;
+}
+
+.btns i{
+    font-size: 20px;
+}
+
+h1{
+    margin-bottom: 20px;
+    color: white;
+    font-size: 70px;
+}
